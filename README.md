@@ -45,7 +45,7 @@ Tambahkan shortcode berikut di halaman atau postingan:
 Tampilan konfigurasi Midas:
 ![Konfigurasi Midas](https://raw.githubusercontent.com/kelaskakap/Midas-Wordpress/master/ss/md1.JPG)
 
-Midas mode `shortcode` embedded di halaman:
+Midas mode `shortcode` ditempel di halaman:
 ![Shortcode Midas](https://raw.githubusercontent.com/kelaskakap/Midas-Wordpress/master/ss/md2.JPG)
 
 Midas mode Widget:
@@ -66,7 +66,7 @@ Ingin berkontribusi? Fork repositori ini dan kirimkan pull request atau beri sar
 ## ☕ **Dukung Pengembangan**
 Kalau plugin ini bermanfaat buatmu, boleh traktir saya kopi:
 
-[![Trakteer](https://img.shields.io/badge/☕%20Dukung%20di%20Trakteer-red?style=for-the-badge)](https://trakteer.id/kiosmerdeka)
+[![Trakteer](https://img.shields.io/badge/🍹%20Trakteer%20Saya-red?style=for-the-badge)](https://teer.id/kiosmerdeka)
 
 ---
 
