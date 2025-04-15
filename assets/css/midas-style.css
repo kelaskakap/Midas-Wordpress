@@ -1,0 +1,52 @@
+.midas-calculator {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fdfdfd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+.midas-calculator h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.midas-calculator form input,
+.midas-calculator form select,
+.midas-calculator form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.midas-calculator form button {
+    background-color: #ffd700;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.midas-calculator form button:hover {
+    background-color: #f1c40f;
+}
+
+.midas-result {
+    background-color: #fff9d6;
+    padding: 10px;
+    border: 1px solid #ffe58f;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.midas-loading {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+}
