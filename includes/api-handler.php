@@ -2,8 +2,9 @@
 
 function midas_get_gold_price_in_idr()
 {
+    $api_key = get_option('midas_api_key');
     // URL untuk ambil harga emas dan kurs USD ke IDR dalam satu call
-    $url = "https://api.metals.dev/v1/latest?api_key=IEE7COI7CXZIN09ZTK5Z4439ZTK5Z&currency=USD&unit=g";
+    $url = "https://api.metals.dev/v1/latest?api_key={$api_key}&currency=USD&unit=g";
 
     $response = wp_remote_get($url);
 

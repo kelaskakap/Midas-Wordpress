@@ -89,12 +89,3 @@ function midas_calculate_gold_price()
 
 add_action('wp_ajax_calculate_gold_price', 'midas_calculate_gold_price');
 add_action('wp_ajax_nopriv_calculate_gold_price', 'midas_calculate_gold_price');
-
-function midas_force_enqueue()
-{
-    if (is_active_widget(false, false, 'midas_widget', true))
-    {
-        midas_enqueue_assets();
-    }
-}
-add_action('wp_footer', 'midas_force_enqueue');

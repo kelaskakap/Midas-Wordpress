@@ -15,13 +15,13 @@ Plugin ini menggunakan data harga emas dari [Metals.Dev](https://metals.dev) —
 
 ### Langkah Mengaktifkan:
 1. Kunjungi [https://metals.dev](https://metals.dev) dan **buat akun gratis**.
-2. Setelah mendaftar, Anda akan mendapatkan **API key** (versi gratis tersedia hingga 100 permintaan/hari).
+2. Setelah mendaftar, Anda akan mendapatkan **API key** (versi gratis tersedia hingga 100 permintaan/bulan).
 
 Tanpa API key, plugin **tidak dapat** mengambil harga emas secara real-time.
 
 ## 🛠 **Instalasi**
 1. **Download** atau clone repositori ini.
-2. **Ekstrak** folder plugin dan pastikan bernama `midas-kalkulator`.
+2. **Ekstrak** folder plugin dan pastikan bernama `midas`.
 3. **Upload** ke direktori `wp-content/plugins/` di instalasi WordPress Anda.
 4. **Aktifkan** plugin melalui menu **Plugins** di dashboard WordPress.
 
@@ -37,16 +37,19 @@ Tambahkan shortcode berikut di halaman atau postingan:
 2. Tambahkan **"Midas – Kalkulator Emas"** ke sidebar yang diinginkan.
 
 ## ⚙️ **Konfigurasi**
-- Tidak memerlukan pengaturan tambahan selain memasukkan API key.
+- Mmasukkan API key yang Anda dapat dari [https://metals.dev](https://metals.dev).
 - Kalkulasi harga menggunakan data dari API dan konversi langsung ke Rupiah.
-- Harga buyback default: **92.5%** dari harga emas.
+- Harga buyback default: **92.5%** dari harga emas (`hard coded` dalam plugin).
 
 ## 📷 **Screenshot**
-Tampilan kalkulator di halaman:
-![Kalkulator Emas](https://raw.githubusercontent.com/username/midas-kalkulator/main/screenshot-1.png)
+Tampilan konfigurasi Midas:
+![Konfigurasi Midas](https://raw.githubusercontent.com/kelaskakap/Midas-Wordpress/master/ss/md1.jpg)
 
-Mode widget yang lebih ringkas:
-![Widget Emas](https://raw.githubusercontent.com/username/midas-kalkulator/main/screenshot-2.png)
+Midas mode `shortcode` embedded di halaman:
+![Shortcode Midas](https://raw.githubusercontent.com/kelaskakap/Midas-Wordpress/master/ss/md2.jpg)
+
+Midas mode Widget:
+![Widget Midas](https://raw.githubusercontent.com/kelaskakap/Midas-Wordpress/master/ss/md3.jpg)
 
 ## 🔧 **Pengembangan Selanjutnya**
 - Menambahkan opsi pengaturan persen buyback dari dashboard admin.
