@@ -43,13 +43,13 @@ Tambahkan shortcode berikut di halaman atau postingan:
 
 ## 📷 **Screenshot**
 Tampilan konfigurasi Midas:
-![Konfigurasi Midas](https://raw.githubusercontent.com/kelaskakap/Midas-Wordpress/master/ss/md1.jpg)
+![Konfigurasi Midas](https://raw.githubusercontent.com/kelaskakap/Midas-Wordpress/master/ss/md1.JPG)
 
 Midas mode `shortcode` embedded di halaman:
-![Shortcode Midas](https://raw.githubusercontent.com/kelaskakap/Midas-Wordpress/master/ss/md2.jpg)
+![Shortcode Midas](https://raw.githubusercontent.com/kelaskakap/Midas-Wordpress/master/ss/md2.JPG)
 
 Midas mode Widget:
-![Widget Midas](https://raw.githubusercontent.com/kelaskakap/Midas-Wordpress/master/ss/md3.jpg)
+![Widget Midas](https://raw.githubusercontent.com/kelaskakap/Midas-Wordpress/master/ss/md3.JPG)
 
 ## 🔧 **Pengembangan Selanjutnya**
 - Menambahkan opsi pengaturan persen buyback dari dashboard admin.
